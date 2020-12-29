@@ -13,7 +13,7 @@ It is a simple but effective responsive web design created from a jpg image. HTM
 ---
 ## Do you want to see the application running? 🚀
 
- [Click here!](https://scarrasco85.github.io/portfolio-layout-flexbox/index.html)
+ [Click here!](https://scarrasco85.github.io/-portfolio-layout-grid/index.html)
 
 ---
  ## Responsive Views 
