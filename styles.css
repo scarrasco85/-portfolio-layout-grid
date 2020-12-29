@@ -1,0 +1,195 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 91.5%;
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid rgba(225, 225, 226, 0.8);
+    box-shadow: 0px 0px 10px #ccc;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    min-height: 550px;
+}
+
+#header {
+    /* aplicamos grid al header, una columna de 68% y la segunda para el menú del 30%, el 1.5% restante lo meterá
+    en los márgenes*/
+    display: grid;
+    grid-template-columns: 68.5% 30%;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgba(225, 225, 226, 0.8);
+}
+
+.logo {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.logo h1 {
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 1.49rem;
+    text-shadow: 1px 1px 0px #ccc;
+    text-transform: uppercase;
+    color: black;
+}
+
+#menu {
+    width: 100%;
+    height: 100%;
+    margin-right: 12px;
+}
+
+#menu>ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    /* quitamos los estilos a la lista, puntitos de la izquierda y demás*/
+    list-style: none;
+    padding-right: 8px;
+}
+
+#menu a {
+    color: #444;
+    font-size: 0.7rem;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all 300ms;
+}
+
+#menu a:hover {
+    background: #ccc;
+    color: white;
+}
+
+
+/* Contenido */
+
+#content {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    column-gap: 20px;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* Proyectos */
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* con la de abajo calcularía las que cabiera con ancho de 170px */
+    /* grid-template-columns: repeat(auto-fill, 170px); */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.project {
+    margin-bottom: 25px;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 5px;
+}
+
+.project-info {
+    font-size: 10px;
+    color: gray;
+}
+
+.project-info a {
+    font-size: 10px;
+    color: black;
+    transition: all 300ms;
+}
+
+.project-info a:hover {
+    color: green;
+}
+
+
+/* Barra lateral */
+
+#sidebar {
+    margin-right: 15px;
+    padding: 12px;
+}
+
+#sidebar h2 {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 100;
+    color: #444;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(225, 225, 226, 0.8);
+    text-align: center;
+}
+
+#sidebar ul {
+    list-style: none;
+}
+
+#sidebar ul li {
+    padding-bottom: 12px;
+}
+
+#sidebar a {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    background: #eee;
+    padding: 11px;
+    color: #444;
+    text-transform: uppercase;
+    transition: all 300ms;
+}
+
+#sidebar a:hover {
+    background: #eee;
+    color: white;
+}
+
+
+/* FOOTER */
+
+#footer {
+    display: grid;
+    grid-template-columns: auto 78%;
+    height: 80px;
+    border-bottom: 1px solid rgba(225, 225, 226, 0.8);
+}
+
+#footer .logo {
+    opacity: 0.5;
+    text-align: left;
+    align-self: center;
+}
+
+#footer .info {
+    text-align: right;
+    align-self: center;
+    color: #444;
+    margin-right: 2%;
+}
