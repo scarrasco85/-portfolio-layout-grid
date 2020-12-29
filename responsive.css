@@ -4,6 +4,12 @@
     }
 }
 
+@media(max-width: 800px) {
+    #projects {
+        gap: 0px;
+    }
+}
+
 @media(max-width: 830px) {
     #menu ul {
         margin-right: 12%;
@@ -60,6 +66,7 @@
     #projects {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
     }
     .project {
         margin-bottom: 15px;
