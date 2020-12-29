@@ -16,9 +16,10 @@
     min-height: 550px;
 }
 
+
+/************* HEADER **************/
+
 #header {
-    /* aplicamos grid al header, una columna de 68% y la segunda para el menú del 30%, el 1.5% restante lo meterá
-    en los márgenes*/
     display: grid;
     grid-template-columns: 68.5% 30%;
     align-items: center;
@@ -55,7 +56,6 @@
     justify-content: center;
     text-align: center;
     height: 100%;
-    /* quitamos los estilos a la lista, puntitos de la izquierda y demás*/
     list-style: none;
     padding-right: 8px;
 }
@@ -74,7 +74,7 @@
 }
 
 
-/* Contenido */
+/************* CONTENT **************/
 
 #content {
     display: grid;
@@ -86,13 +86,11 @@
 }
 
 
-/* Proyectos */
+/* Projects */
 
 #projects {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* con la de abajo calcularía las que cabiera con ancho de 170px */
-    /* grid-template-columns: repeat(auto-fill, 170px); */
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
@@ -128,7 +126,7 @@
 }
 
 
-/* Barra lateral */
+/* Sidebar */
 
 #sidebar {
     margin-right: 15px;
@@ -172,7 +170,7 @@
 }
 
 
-/* FOOTER */
+/************* FOOTER **************/
 
 #footer {
     display: grid;
