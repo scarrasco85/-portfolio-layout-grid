@@ -16,7 +16,7 @@ It is a simple but effective responsive web design created from a jpg image. HTM
  [Click here!](https://scarrasco85.github.io/-portfolio-layout-grid/index.html)
 
 ---
- ## Responsive Views 
+ ## Responsive views - Some examples
 #### Desktop view:
 
 ![](img/screenshots/version-escritorio.png)
@@ -29,9 +29,9 @@ It is a simple but effective responsive web design created from a jpg image. HTM
 ---
 ***
 
-#### Medium-Small view:
+#### Medium view 2 - 670px:
 
-![](img/screenshots/medium-small-devices.png)
+![](img/screenshots/medium-devices-670px.png)
 ---
 ***
 
@@ -41,32 +41,20 @@ It is a simple but effective responsive web design created from a jpg image. HTM
 ---
 ***
 
-#### Small view 2 - 520px:
+#### Small view 2 - 409px:
 
-![](img/screenshots/small-devices-2-520px.png)
+![](img/screenshots/small-devices-2-409px.png)
 ---
 ***
 
-#### Small view 3 - 510px:
+#### Small view 3 - 390px:
 
-![](img/screenshots/small-devices-3-510px.png)
+![](img/screenshots/small-devices-3-390px.png)
 ---
 ***
 
-#### Small view 4 - 499px:
+#### Small view 4 - 300px:
 
-![](img/screenshots/small-devices-4-499px.png)
----
-***
-
-#### Small view 5 - 396px:
-
-![](img/screenshots/small-devices-5-396px.png)
----
-***
-
-#### Small view 6 - 310px:
-
-![](img/screenshots/small-devices-6-310px.png)
+![](img/screenshots/small-devices-4-300px.png)
 ---
 ***

@@ -82,10 +82,11 @@
     #footer .info {
         text-align: center;
         align-content: center;
+        margin-right: 0px;
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 599px) {
     #content {
         grid-template-columns: 100%;
         margin: 10px;
@@ -114,5 +115,11 @@
         gap: auto;
         grid-template-columns: 100%;
         justify-content: space-around;
+    }
+}
+
+@media(max-width: 370px) {
+    #footer .info {
+        font-size: 12px;
     }
 }
